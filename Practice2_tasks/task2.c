@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct {
     char name[50];
@@ -9,7 +10,7 @@ typedef struct {
 int main() {
     int n;
     scanf("%d", &n);
-    Item items[n];
+    Item *items = (Item *)malloc(n * sizeof(Item));
 
     for (int i = 0; i < n; i++) {
         printf("Enter name, quantity and price for item %d: ", i + 1);

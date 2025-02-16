@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct {
     int day;
@@ -15,7 +16,7 @@ typedef struct {
 int main() {
     int n;
     scanf("%d", &n);
-    Event events[n];
+    Event *events = (Event *)malloc(n * sizeof(Event));
 
     for (int i = 0; i < n; i++) {
         printf("Enter name, date and description for event %d: ", i + 1);
