@@ -1,0 +1,48 @@
+Анализ символов с помощью nm
+navigation.o:
+nm navigation.o
+Вывод:
+0000000000000000 T _calculate_distance
+0000000000000000 t ltmp0
+0000000000000020 s ltmp1
+
+
+fuel.o:
+nm fuel.o
+Вывод:
+0000000000000000 T _check_fuel
+                 U _printf
+0000000000000070 s l_.str
+00000000000000d4 s l_.str.1
+0000000000000000 t ltmp0
+0000000000000070 s ltmp1
+0000000000000108 s ltmp2
+
+main.o:
+nm main.o
+Вывод:
+                 U _calculate_distance
+                 U _check_fuel
+0000000000000000 T _main
+                 U _printf
+                 U _scanf
+00000000000000c8 s l_.str
+0000000000000103 s l_.str.1
+0000000000000106 s l_.str.2
+000000000000013a s l_.str.3
+000000000000016e s l_.str.4
+0000000000000171 s l_.str.5
+0000000000000000 t ltmp0
+00000000000000c8 s ltmp1
+00000000000001a0 s ltmp2
+
+spaceship:
+nm spaceship
+Вывод:
+0000000100000000 T __mh_execute_header
+0000000100003cc0 T _calculate_distance
+0000000100003ce0 T _check_fuel
+0000000100003d50 T _main
+                 U _printf
+                 U _scanf
+
