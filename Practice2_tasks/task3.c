@@ -27,5 +27,6 @@ int main() {
         printf("Event: %s\nDate: %d/%d/%d\nDescription: %s\n\n", events[i].name, events[i].date.day, events[i].date.month, events[i].date.year, events[i].description);
     }
 
+    free(events);
     return 0;
 }

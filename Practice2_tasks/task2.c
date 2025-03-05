@@ -21,5 +21,6 @@ int main() {
         printf("Item: %s\nQuantity: %d\nPrice: %.2f\n\n", items[i].name, items[i].quantity, items[i].price);
     }
 
+    free(items);
     return 0;
 }

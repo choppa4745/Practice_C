@@ -35,6 +35,5 @@ int main() {
     }
 
     free(grades);
-
     return 0;
 }

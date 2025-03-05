@@ -26,5 +26,6 @@ int main() {
         printf("GPA: %.2f\n", students[i].gpa);
     }
 
+    free(students);
     return 0;
 }

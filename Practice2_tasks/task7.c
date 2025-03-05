@@ -21,5 +21,6 @@ int main() {
         printf("Name: %s\nAge: %d\nGPA: %.1f\n\n", students[i].name, students[i].age, students[i].gpa);
     }
 
+    free(students);
     return 0;
 }

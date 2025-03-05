@@ -21,5 +21,6 @@ int main() {
         printf("Name: %s\nPosition: %s\nSalary: %.2f\n\n", employees[i].name, employees[i].position, employees[i].salary);
     }
 
+    free(employees);
     return 0;
 }
