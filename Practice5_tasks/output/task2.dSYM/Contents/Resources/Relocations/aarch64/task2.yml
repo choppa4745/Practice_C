@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pavh/C/Practice5_tasks/output/task2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _remove_spaces, symObjAddr: 0x0, symBinAddr: 0x100003A78, symSize: 0x80 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _remove_spaces, symObjAddr: 0x0, symBinAddr: 0x100003A78, symSize: 0x80 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _replace_vowels, symObjAddr: 0x80, symBinAddr: 0x100003AF8, symSize: 0x7C }
+  - { offsetInCU: 0x97, offset: 0x97, size: 0x8, addend: 0x0, symName: _invert_case, symObjAddr: 0xFC, symBinAddr: 0x100003B74, symSize: 0xB4 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1B0, symBinAddr: 0x100003C28, symSize: 0x198 }
+...
