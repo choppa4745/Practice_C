@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pavh/C/Practice5_tasks/output/task1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _to_upper, symObjAddr: 0x0, symBinAddr: 0x100003AB4, symSize: 0x8C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _to_upper, symObjAddr: 0x0, symBinAddr: 0x100003AB4, symSize: 0x8C }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _to_lower, symObjAddr: 0x8C, symBinAddr: 0x100003B40, symSize: 0x8C }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: _reverse_string, symObjAddr: 0x118, symBinAddr: 0x100003BCC, symSize: 0xE0 }
+  - { offsetInCU: 0x12B, offset: 0x12B, size: 0x8, addend: 0x0, symName: _exit_program, symObjAddr: 0x1F8, symBinAddr: 0x100003CAC, symSize: 0x24 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x21C, symBinAddr: 0x100003CD0, symSize: 0x150 }
+...

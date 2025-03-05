@@ -8,8 +8,7 @@ int main (){
     fgets(str, sizeof(str), stdin);
 
     size_t start = strspn(str, "#*");
-    size_t end = strlen(str) - strcspn(str + start, "#*");
-    size_t len = end - start;
+    size_t len = strcspn(str + start, "#*");
 
     char *messege = strndup(str + start, len);
 
